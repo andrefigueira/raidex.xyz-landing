@@ -31,7 +31,7 @@ export async function POST(request: Request) {
 
       await resend.emails.send({
         from: "RAIDEX <noreply@email.raidex.xyz>",
-        to: ["andre@polyxmedia.com"],
+        to: ["hello@polyxmedia.com"],
         subject: `New Team Application: ${name} - ${role}`,
         html: `
           <h2>New Team Application</h2>
